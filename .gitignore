@@ -1,0 +1,9 @@
+*/builder_linux/linux64/
+*/builder_linux/package/
+*/builder_linux/public/
+*/builder_linux/siteserverui/
+*/builder_linux/update_hosts_cached.vdf
+
+*.csd
+*.csm
+*.log

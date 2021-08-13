@@ -1,0 +1,34 @@
+"AppBuild"
+{
+	"AppID" "1653240" // your AppID
+	"Desc" "Polus.gg Steam Client" // internal description for this build
+
+	// "ContentRoot" "..\content\" // root content folder, relative to location of this file
+	// "BuildOutput" "..\output\" // build output folder for build logs and build cache files
+
+	"Depots"
+	{
+		"1653242" // your DepotID
+		{
+			"ContentRoot" "..\content_windows\"
+			"BuildOutput" "..\output_windows\"
+			"FileMapping"
+			{
+				"LocalPath" "*" // all files from contentroot folder
+				"DepotPath" "." // mapped into the root of the depot
+				"recursive" "1" // include all subfolders
+			}
+		}
+		"1653243" // your DepotID
+		{
+			"ContentRoot" "..\content_linux\"
+			"BuildOutput" "..\output_linux\"
+			"FileMapping"
+			{
+				"LocalPath" "*" // all files from contentroot folder
+				"DepotPath" "." // mapped into the root of the depot
+				"recursive" "1" // include all subfolders
+			}
+		}
+	}
+}
