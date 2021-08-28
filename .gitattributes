@@ -1,0 +1,2 @@
+ContentBuilder/content_linux/ClientLauncher filter=lfs diff=lfs merge=lfs -text
+ContentBuilder/content_windows/ClientLauncher.exe filter=lfs diff=lfs merge=lfs -text
